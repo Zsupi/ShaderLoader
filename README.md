@@ -1,5 +1,9 @@
 # ShaderLoader
 
+## Általános
+
+Grafikaházihoz egy kis segítség.
+
 ## Használata
 
 Hozzunk léte egy Shadert. Amennyiben a 2 file ugyan olyan névvel van ellátva, akkor a következő képpen tudjuk használni:
