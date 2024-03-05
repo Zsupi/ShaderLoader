@@ -7,18 +7,22 @@ Grafika házihoz egy kis segítség.
 ## Használata
 
 Hozzunk léte egy Shadert. Amennyiben a 2 file ugyan olyan névvel van ellátva, akkor a következő képpen tudjuk használni:
-
 ``` cpp
 Shader shader = Shader("skeleton");
 gpuProgram.create(shader.vertex(), shader.fragment(), "outColor");
 ```
 
 Ha különböző nevek esetén pedig:
-
 ``` cpp
 Shader shader = Shader("skeleton1", "skeleton2");
 gpuProgram.create(shader.vertex(), shader.fragment(), "outColor");
 ```
+
+Beadás előtt a shadereket másoljuk be `const char* fragmentSource` és `const char* vertexSource` és írjuk át a fentebb említett sorokat a következőre:
+``` cpp
+gpuProgram.create(vertexSource, fragmentSource, "outColor");
+```
+Majd utolsó lépésként töröljük a shader osztályhoz tartozó include-ot. 
 
 ## Tippek
 
