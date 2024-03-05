@@ -2,7 +2,7 @@
 
 ## Általános
 
-Grafikaházihoz egy kis segítség.
+Grafika házihoz egy kis segítség.
 
 ## Használata
 
